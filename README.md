@@ -28,7 +28,7 @@ Feel free to use any third party libary such as jquery.
 ### Category
 * Put a `<select>` somewhere on the page that will list out all the different product categories. The default option should be "--Choose--".
 ### Checkout
-* Create a Form with inputs for First Name, Last Name and Email Address.
+* Create a Form with inputs for First Name, Last Name and Email Address. Also have a submit button that says "Place Order"
 
 
 
@@ -59,6 +59,7 @@ Feel free to use any third party libary such as jquery.
 * When the category drop down is changed, filter the array of products on the category property and update the UI to show this.
 ### Checkout
 * When the Checkout button is clicked change the UI to show the check out form.
+* What should happen when the Place Order button is clicked?
 
 ## Open the page
 * Simply open the index.html file in a chrome browser window. Double click on the file or use the menu -> file -> open file
