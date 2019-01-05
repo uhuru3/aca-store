@@ -18,7 +18,7 @@ The purpose of this project is to build an Amazon.com like ecommerce website usi
 * Its a good idea to use string template literals to dynamically construct html strings.
 * There should probably be one function responsible for creating each dynamic UI content.
 ### Products
-* Our site is very simple, we only have a few hard coded products and we display all the products on the front page. Decide how you would like to display the products in your web page. Use `<div> <ul>` or `<ol>`. Show the product name, description price. Include a link or button that should be clicked on so that you can see the details of the product. Our store is very simple, we just show every product there is.
+* Our site is very simple, we only have a few hard coded products and we display all the products on the front page. Decide how you would like to display the products in your web page. Use `<div> <ul>` or `<ol>`. Show the product name, rating, number of reviews and price. Include a link or button that should be clicked on so that you can see the details of the product. Our store is very simple, we just show every product there is by default
 ### Search
 * Create a textbox that is going to be used to type in a product to search for. Put a button next to it to initiate the search.
 ### Shopping Cart
