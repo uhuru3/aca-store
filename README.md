@@ -59,7 +59,9 @@ The purpose of this project is to build an Amazon.com like ecommerce website usi
 ### Checkout
 * When the Checkout button is clicked change the UI to show the check out form.
 * What should happen when the Place Order button is clicked?
-
+## Debug  
+* Make sure you know how to debug with console.log
+* Ensure functions are being called by using console.log to see if the code was executed
 ## Open the page
 * Simply open the index.html file in a chrome browser window. Double click on the file or use the menu -> file -> open file
 * Refresh the browser whenever you make changes to see if they worked.
