@@ -1,7 +1,6 @@
 # Intro
 The purpose of this project is to build an Amazon.com like ecommerce website using the front end skills that we should possess by now. You may be suprised that you have already learned all the skills necessary to do this.
-Today, browsers are very powerful. We do not need a backend server to create any of the functionality necessary for a web app like this.
-Feel free to use any third party libary such as jquery. 
+
 
 # Setup
 * Fork, Clone
