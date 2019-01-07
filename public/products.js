@@ -1,7 +1,7 @@
 const products = [{
     "_id": 1,
     "name": "Body Luxuries Sweet Lavender Hand Sanitizer",
-    "description": "Psychotropic drugs, not elsewhere classified",
+    "description": "Makes your hands clean",
     "reviews": 46,
     "rating": 2,
     "imgUrl": "http://dummyimage.com/136x167.bmp/cc0000/ffffff",
@@ -41,7 +41,7 @@ const products = [{
   }, {
     "_id": 2,
     "name": "Topiramate",
-    "description": "Injury of ulnar nerve at forearm level, left arm, sequela",
+    "description": "A wonderful medicine that makes everything all better",
     "reviews": 2,
     "rating": 2,
     "imgUrl": "http://dummyimage.com/125x134.jpg/cc0000/ffffff",
@@ -67,7 +67,7 @@ const products = [{
   }, {
     "_id": 3,
     "name": "Almond",
-    "description": "Other disorders of continuity of bone, unsp tibia and fibula",
+    "description": "A great treat that tastes great",
     "reviews": 27,
     "rating": 5,
     "imgUrl": "http://dummyimage.com/149x190.jpg/dddddd/000000",
@@ -107,7 +107,7 @@ const products = [{
   }, {
     "_id": 5,
     "name": "Decolorized Iodine",
-    "description": "Injury",
+    "description": "Kills germs on contact",
     "reviews": 20,
     "rating": 1,
     "imgUrl": "http://dummyimage.com/120x245.jpg/cc0000/ffffff",
@@ -127,7 +127,7 @@ const products = [{
   }, {
     "_id": 6,
     "name": "Fresh Sugar Honey Tinted Lip Treatment SPF15",
-    "description": "Unspecified open wound ",
+    "description": "Fix those chapped lips. ",
     "reviews": 79,
     "rating": 3,
     "imgUrl": "http://dummyimage.com/211x227.bmp/5fa2dd/ffffff",
@@ -167,7 +167,7 @@ const products = [{
   }, {
     "_id": 8,
     "name": "Cholestyramine",
-    "description": "Laceration without foreign body of trachea, sequela",
+    "description": "Help reduce cholesteral in the system",
     "reviews": 74,
     "rating": 3,
     "imgUrl": "http://dummyimage.com/204x175.jpg/5fa2dd/ffffff",
