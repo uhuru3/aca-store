@@ -23,12 +23,14 @@ The purpose of this project is to build an Amazon.com like ecommerce website usi
 * Create a textbox that is going to be used to type in a product to search for. Put a button next to it to initiate the search.
 ### Shopping Cart
 * Create a button somwhere on the page "View Cart", that when clicked will show the products in the user's cart. This will be another list of products, but this one should only show the products that have been added to the cart. Add a button for each product for "remove".
+* There should be button for checkout
 ### Product Detail
 * Decide how to show one single product. Display all the information that is on a product object. There should be a button for "Add to Cart". Add a `<select>` for quantity. Hard code the options from 1 to 10.
 ### Category
 * Put a `<select>` somewhere on the page that will list out all the different product categories. The default option should be "--Choose--".
 ### Checkout
 * Create a Form with inputs for First Name, Last Name and Email Address. Also have a submit button that says "Place Order"
+* Show the total price of the order.
 
 
 
@@ -54,18 +56,22 @@ The purpose of this project is to build an Amazon.com like ecommerce website usi
 ### Add to Cart
 * When add to cart is clicked from the product detail, retrieve the cart item from the sessionStorage. Convert it from a string to an array. Push the product object to this array. Convert the array back to a string and save it back into sessionStorage
 ### View Cart
-* When the View Cart button is clicked, clear the screen and construct a list of the products that are in the cart. Also show a button "Checkout"
+* When the View Cart button is clicked, clear the screen and construct a list of the products that are in the cart. Also show a button "Checkout" that when clicked will show the check out form.
 ### Category
 * When the category drop down is changed, filter the array of products on the category property and update the UI to show this.
 ### Checkout
 * When the Checkout button is clicked change the UI to show the check out form.
-* What should happen when the Place Order button is clicked?
+
 ## Debug  
 * Make sure you know how to debug with console.log
 * Ensure functions are being called by using console.log to see if the code was executed
 ## Open the page
 * Simply open the index.html file in a chrome browser window. Double click on the file or use the menu -> file -> open file
 * Refresh the browser whenever you make changes to see if they worked.
+## Questions
+* Why is storing the shopping cart in sessionStorage not the best choice?
+* What should happen when the Place Order button is clicked?
+
 
 ## Server
 * https://acastore.herokuapp.com/
