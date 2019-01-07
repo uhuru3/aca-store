@@ -66,3 +66,6 @@ The purpose of this project is to build an Amazon.com like ecommerce website usi
 ## Open the page
 * Simply open the index.html file in a chrome browser window. Double click on the file or use the menu -> file -> open file
 * Refresh the browser whenever you make changes to see if they worked.
+
+## Server
+* https://acastore.herokuapp.com/
