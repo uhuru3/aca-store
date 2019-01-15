@@ -1,35 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Store</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
     <link rel="stylesheet" href="product.css">
-   
-</head>
-<body>
-        <form action="/action_page.php">
-            First name: <input type="text" name="fname"><br>
-            Last name: <input type="text" name="lname"><br>
-            Email: <input type='text' name='email'><br>
-            <input type="submit" value="Place Order">
-        </form>
-            
-            <button type="button" onclick="order()">View Cart</button>
+    <script src="index.js"></script>
+    <script src="products.js"></script>
+  </head>
+  <body>
+    <button type="button" id="btnSearch" onClick="showHome()">Home</button>
+    Search<input id="search" onChange="searchTextChanged(this)">
+    <button type="button" id="btnSearch" onClick="search()">Search</button>
+     <button type="button" id="btnCart" onClick="showCart()">Cart</button>
+    <div id="main"></div>
+      <button style="display:none" type="button" id="btnAddToCart" onClick="addToCart(state.currentProductToAdd)">Add To Cart</button>
+      
+  </body>
 
-
-     <script src="products.js"></script>    
-    <script src="index.js"></script> 
-    
-    
-    <div id="productNamesList">
-            <script>
-            var productNamesDOM = document.getElementById('productNamesList');
-            
-            productNamesDOM.innerHTML = getListOfProductNames();
-            </script>
-            </div>
-
-</body>
 </html>
